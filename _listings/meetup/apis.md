@@ -28,7 +28,7 @@ apis:
   tags: Photos
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/photos/master/_listings/meetup/urlname-photo-albums-album-id-photos-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/photos/master/_listings/meetup/urlname-events-event-id-photos-get.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
