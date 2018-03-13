@@ -35,7 +35,7 @@ apis:
   tags: Photos
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/photos/master/_listings/flickr/rest-method-flickr-groups-discuss-topics-getinfo-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/photos/master/_listings/flickr/rest-method-flickr-groups-pools-getcontext-get.md
 x-common:
 - type: x-authentication
   url: https://www.flickr.com/services/api/auth.oauth.html
