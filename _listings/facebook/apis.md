@@ -36,7 +36,7 @@ apis:
   tags: Photos
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/photos/master/_listings/facebook/album-id-photos-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/photos/master/_listings/facebook/album-id-photos-post.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
