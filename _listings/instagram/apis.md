@@ -40,7 +40,7 @@ apis:
   tags: Photos
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/instagram/media-media-id-likes-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/instagram/tags-tag-name-get.md
 x-common:
 - type: x-application-management
   url: https://instagram.com/accounts/manage_access/
