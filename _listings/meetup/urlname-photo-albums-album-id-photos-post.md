@@ -1,11 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Meetup
-  description: 'The Meetup API provides simple RESTful HTTP and streaming interfaces
-    for exploring and interacting Meetup platform from your own apps. The API is a
-    set of core methods and a common request format. These are combined to form a
-    URL that returns the information you want. '
+  title: Meetup Album Photo Upload
+  description: Support for uploading new Album photos
   version: 1.0.0
 host: api.meetup.com
 basePath: /
@@ -23,10 +20,6 @@ paths:
       operationId: photos
       parameters:
       - in: query
-        name: '*photo'
-        description: Photo upload data, encoded as multipart/form-data
-        type: string
-      - in: query
         name: await
         description: Optional boolean parameter that will defer a request's a response
           until confirmation that photo is immediately displayable is received
@@ -38,6 +31,10 @@ paths:
       - in: query
         name: fields
         description: A comma-delimited list of optional response fields
+        type: string
+      - in: query
+        name: photo
+        description: Photo upload data, encoded as multipart/form-data
         type: string
       responses:
         200:
