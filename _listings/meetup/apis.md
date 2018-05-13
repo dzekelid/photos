@@ -29,15 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlname-similar-groups-get.md
-- name: Meetup Album Photos
-  description: Lists of all photos uploaded for the group
+- name: Meetup Group Topics Add
+  description: Associates topics with a given Meetup group. Limited to organizers
+    of the group. OAuth authenticated requests require an additional [group_edit](/meetup_api/auth/#oauth2-scopes)
+    permission.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Photos
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlname-photos-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlname-topics-post.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
