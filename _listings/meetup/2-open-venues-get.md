@@ -1,11 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Meetup
-  description: 'The Meetup API provides simple RESTful HTTP and streaming interfaces
-    for exploring and interacting Meetup platform from your own apps. The API is a
-    set of core methods and a common request format. These are combined to form a
-    URL that returns the information you want. '
+  title: Meetup OpenVenues
+  description: Searches for public venues within a given geo space. To search for
+    specific venues that your group has used, use the [Venues](/meetup_api/docs/2/venues)
+    method
   version: 1.0.0
 host: api.meetup.com
 basePath: /
@@ -23,50 +22,36 @@ paths:
       operationId: venues
       parameters:
       - in: query
-        name: '*city'
+        name: api_version
+        description: "2"
+        type: string
+      - in: query
+        name: city
         description: A valid city
         type: string
       - in: query
-        name: '*country'
+        name: country
         description: A valid country code
-        type: string
-      - in: query
-        name: '*group_urlname'
-        description: Returns venues with location relative to the group associated
-          with this urlname
-        type: string
-      - in: query
-        name: '*lat'
-        description: A valid latitude, limits the returned venues to those within
-          radius miles
-        type: string
-      - in: query
-        name: '*lon'
-        description: A valid longitude, limits the returned venues to those within
-          radius miles
-        type: string
-      - in: query
-        name: '*state'
-        description: For the US, a valid 2 character state code
-        type: string
-      - in: query
-        name: '*text'
-        description: Venues that contain the given term or terms somewhere in their
-          content
-        type: string
-      - in: query
-        name: '*zip'
-        description: A valid US zip code, limits the returned venues to those within
-          radius miles
-        type: string
-      - in: query
-        name: api_version
-        description: "2"
         type: string
       - in: query
         name: fields
         description: Request that additional fields (separated by commas) be included
           in the output
+        type: string
+      - in: query
+        name: group_urlname
+        description: Returns venues with location relative to the group associated
+          with this urlname
+        type: string
+      - in: query
+        name: lat
+        description: A valid latitude, limits the returned venues to those within
+          radius miles
+        type: string
+      - in: query
+        name: lon
+        description: A valid longitude, limits the returned venues to those within
+          radius miles
         type: string
       - in: query
         name: radius
@@ -83,9 +68,23 @@ paths:
           time, in milliseconds since the epoch
         type: string
       - in: query
+        name: state
+        description: For the US, a valid 2 character state code
+        type: string
+      - in: query
+        name: text
+        description: Venues that contain the given term or terms somewhere in their
+          content
+        type: string
+      - in: query
         name: trickle
         description: When supplied with a request, the Meetup API will push your client
           the entire Meetup database of public venues in batches of 512
+        type: string
+      - in: query
+        name: zip
+        description: A valid US zip code, limits the returned venues to those within
+          radius miles
         type: string
       responses:
         200:
@@ -96,16 +95,16 @@ paths:
 definitions: []
 x-collection-name: Meetup
 x-streamrank:
-  polling_total_time_average: 0
-  polling_size_download_average: 0
-  streaming_total_time_average: 0
-  streaming_size_download_average: 0
-  change_yes: 0
-  change_no: 0
-  time_percentage: 0
-  size_percentage: 0
-  change_percentage: 0
-  last_run: ""
-  days_run: 0
-  minute_run: 0
+  polling_total_time_average: "0.47"
+  polling_size_download_average: "208293.58"
+  streaming_total_time_average: "0.26"
+  streaming_size_download_average: "104828.22"
+  change_yes: "50"
+  change_no: "1811"
+  time_percentage: "44"
+  size_percentage: "50"
+  change_percentage: "3"
+  last_run: "2018-05-12"
+  days_run: "8"
+  minute_run: "0"
 ---
