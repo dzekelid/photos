@@ -1,11 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Meetup
-  description: 'The Meetup API provides simple RESTful HTTP and streaming interfaces
-    for exploring and interacting Meetup platform from your own apps. The API is a
-    set of core methods and a common request format. These are combined to form a
-    URL that returns the information you want. '
+  title: Meetup Photos
+  description: API method for accessing meetup photos
   version: 1.0.0
 host: api.meetup.com
 basePath: /
@@ -23,28 +20,28 @@ paths:
       operationId: deprecated
       parameters:
       - in: query
-        name: '*album_id'
+        name: album_id
         description: return photos for the albums with the given id, separated by
           commas
         type: string
       - in: query
-        name: '*group_id'
+        name: group_id
         description: Return photos in groups with these ID numbers [separated by commas]
         type: string
       - in: query
-        name: '*group_urlname'
+        name: group_urlname
         description: return photos for the group with given custom URL path
         type: string
       - in: query
-        name: '*topic'
+        name: topic
         description: Return photos in this topic
         type: string
       - in: query
-        name: '*topic, groupnum'
+        name: topic, groupnum
         description: return photos for the group with given topic and number
         type: string
       - in: query
-        name: '*topic_id'
+        name: topic_id
         description: Return photos in topics with this ID number
         type: string
       responses:
