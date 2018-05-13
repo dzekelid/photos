@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlname-similar-groups-get.md
-- name: Meetup Photo Comment
-  description: Creates a new photo comment
+- name: Meetup Photo Comment Delete
+  description: Deletes photo comments
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Photos
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlname-events-event-id-photos-photo-id-comments-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlname-events-event-id-photos-photo-id-comments-comment-id-delete.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
