@@ -1,11 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Meetup
-  description: 'The Meetup API provides simple RESTful HTTP and streaming interfaces
-    for exploring and interacting Meetup platform from your own apps. The API is a
-    set of core methods and a common request format. These are combined to form a
-    URL that returns the information you want. '
+  title: Meetup Venue Create
+  description: Interface for creating new Meetup venues
   version: 1.0.0
 host: api.meetup.com
 basePath: /
@@ -23,28 +20,20 @@ paths:
       operationId: venues
       parameters:
       - in: query
-        name: '*address_1'
+        name: address_1
         description: Primary address of the venue
-        type: string
-      - in: query
-        name: '*city'
-        description: City name of the venue
-        type: string
-      - in: query
-        name: '*country'
-        description: 2 character country code of the venue
-        type: string
-      - in: query
-        name: '*name'
-        description: Unique name of the venue
-        type: string
-      - in: query
-        name: '*state'
-        description: If in the US or CA, the state code for the venue
         type: string
       - in: query
         name: address_2
         description: Secondary address info
+        type: string
+      - in: query
+        name: city
+        description: City name of the venue
+        type: string
+      - in: query
+        name: country
+        description: 2 character country code of the venue
         type: string
       - in: query
         name: fields
@@ -55,8 +44,16 @@ paths:
         description: Open hours information about the venue
         type: string
       - in: query
+        name: name
+        description: Unique name of the venue
+        type: string
+      - in: query
         name: phone
         description: Optional phone number for the venue
+        type: string
+      - in: query
+        name: state
+        description: If in the US or CA, the state code for the venue
         type: string
       - in: query
         name: visibility
