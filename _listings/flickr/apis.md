@@ -36,17 +36,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/flickr/rest-method-flickr-photos-search-get.md
-- name: Flickr Get Photos
-  description: Returns next and previous photos for a photo in a photostream
+- name: Flickr Get Photo Licenses
+  description: Fetches a list of available photo licenses for Flickr
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
   baseURL: http:://api.flickr.com//services
   tags: Photos
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/flickr/rest-method-flickr-photos-getcontext-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/flickr/rest-method-flickr-photos-licenses-getinfo-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/flickr/rest-method-flickr-photos-getcontext-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/flickr/rest-method-flickr-photos-licenses-getinfo-get-postman.md
 x-common:
 - type: x-authentication
   url: https://www.flickr.com/services/api/auth.oauth.html
