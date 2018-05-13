@@ -1,11 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Meetup
-  description: 'The Meetup API provides simple RESTful HTTP and streaming interfaces
-    for exploring and interacting Meetup platform from your own apps. The API is a
-    set of core methods and a common request format. These are combined to form a
-    URL that returns the information you want. '
+  title: Meetup Group Topics Add
+  description: Associates topics with a given Meetup group. Limited to organizers
+    of the group. OAuth authenticated requests require an additional [group_edit](/meetup_api/auth/#oauth2-scopes)
+    permission.
   version: 1.0.0
 host: api.meetup.com
 basePath: /
@@ -23,7 +22,7 @@ paths:
       operationId: groups
       parameters:
       - in: query
-        name: '*topic_id'
+        name: topic_id
         description: Comma-delimited list of topic ids to associate with group
         type: string
       responses:
