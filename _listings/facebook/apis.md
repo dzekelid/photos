@@ -37,15 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/facebook/album-id-photos-delete.md
-- name: Facebook Get Album Photos
-  description: The photos in an album on Facebook.
+- name: Facebook Get User Photos
+  description: User Photos
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0
   tags: Photos
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/facebook/#123;album-id-#125;-photos-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/facebook/#123;user-id-#125;-photos-get.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
