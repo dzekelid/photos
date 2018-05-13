@@ -36,17 +36,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/flickr/rest-method-flickr-photos-search-get.md
-- name: Flickr Get Groups
-  description: Get information about a group
+- name: Flickr Get Group Pool Photos
+  description: Returns a list of pool photos for a given group
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
   baseURL: http:://api.flickr.com//services
   tags: Photos
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/flickr/rest-method-flickr-groups-getinfo-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/flickr/rest-method-flickr-groups-pools-getphotos-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/flickr/rest-method-flickr-groups-getinfo-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/flickr/rest-method-flickr-groups-pools-getphotos-get-postman.md
 x-common:
 - type: x-authentication
   url: https://www.flickr.com/services/api/auth.oauth.html
