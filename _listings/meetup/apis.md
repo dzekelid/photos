@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlname-similar-groups-get.md
-- name: Meetup Event Photos
-  description: Lists photos for a given event
+- name: Meetup Event Photo
+  description: Gets information about a specific photo
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Photos
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlname-events-event-id-photos-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlname-events-event-id-photos-photo-id-get.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
