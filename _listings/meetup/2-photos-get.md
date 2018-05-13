@@ -1,11 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Meetup
-  description: 'The Meetup API provides simple RESTful HTTP and streaming interfaces
-    for exploring and interacting Meetup platform from your own apps. The API is a
-    set of core methods and a common request format. These are combined to form a
-    URL that returns the information you want. '
+  title: Meetup Photos
+  description: This method returns photos by member, group, album, event, photo ID,
+    or tagged member.
   version: 1.0.0
 host: api.meetup.com
 basePath: /
@@ -24,50 +22,46 @@ paths:
       operationId: photos
       parameters:
       - in: query
-        name: '*callback'
-        description: Name of a function to be called with an array of photo notification
-          objects
-        type: string
-      - in: query
-        name: '*event_id'
-        description: Event ids, separated by commas
-        type: string
-      - in: query
-        name: '*group_id'
-        description: Group IDs, separated by commas
-        type: string
-      - in: query
-        name: '*group_urlname'
-        description: Group urlnames, separated by commas
-        type: string
-      - in: query
-        name: '*member_id'
-        description: Uploaded by members with these IDs, separated by commas
-        type: string
-      - in: query
-        name: '*photo_album_id'
-        description: Photo Album IDs, separated by commas
-        type: string
-      - in: query
-        name: '*photo_id'
-        description: Photo IDs, separated by commas
-        type: string
-      - in: query
-        name: '*tagged'
-        description: Tagged with members with these IDs, separated by commas
-        type: string
-      - in: query
         name: api_version
         description: "2"
+        type: string
+      - in: query
+        name: callback
+        description: Name of a function to be called with an array of photo notification
+          objects
         type: string
       - in: query
         name: event_id
         description: Limit notifications to a specific event id
         type: string
       - in: query
+        name: event_id
+        description: Event ids, separated by commas
+        type: string
+      - in: query
         name: fields
         description: comma-delimited optional response properties such as member_country,
           member_city, member_state, and self
+        type: string
+      - in: query
+        name: group_id
+        description: Group IDs, separated by commas
+        type: string
+      - in: query
+        name: group_urlname
+        description: Group urlnames, separated by commas
+        type: string
+      - in: query
+        name: member_id
+        description: Uploaded by members with these IDs, separated by commas
+        type: string
+      - in: query
+        name: photo_album_id
+        description: Photo Album IDs, separated by commas
+        type: string
+      - in: query
+        name: photo_id
+        description: Photo IDs, separated by commas
         type: string
       - in: query
         name: since_count
@@ -78,6 +72,10 @@ paths:
         name: since_mtime
         description: Should be supplied for all but the first polling request, so
           that any missed notifications are can be sent in an immediate response
+        type: string
+      - in: query
+        name: tagged
+        description: Tagged with members with these IDs, separated by commas
         type: string
       - in: query
         name: time
@@ -93,16 +91,16 @@ paths:
 definitions: []
 x-collection-name: Meetup
 x-streamrank:
-  polling_total_time_average: 0
-  polling_size_download_average: 0
-  streaming_total_time_average: 0
-  streaming_size_download_average: 0
-  change_yes: 0
-  change_no: 0
-  time_percentage: 0
-  size_percentage: 0
-  change_percentage: 0
-  last_run: ""
-  days_run: 0
-  minute_run: 0
+  polling_total_time_average: "0.11"
+  polling_size_download_average: "13957.05"
+  streaming_total_time_average: "0.06"
+  streaming_size_download_average: "7006.35"
+  change_yes: "29"
+  change_no: "2252"
+  time_percentage: "43"
+  size_percentage: "50"
+  change_percentage: "1"
+  last_run: "2018-05-12"
+  days_run: "8"
+  minute_run: "0"
 ---
