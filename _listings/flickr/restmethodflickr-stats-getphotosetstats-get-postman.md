@@ -1691,25 +1691,4 @@
         },
         {
           "id": "cb6afd0d-1320-4893-a903-e4e5f786ec71",
-          "name": "getRestMethodFlickr.stats.getphotosetstats",
-          "request": {
-            "url": "http://api.flickr.com/services/rest/?method=flickr.stats.getPhotosetStats?api_key=%7B%7D&date=%7B%7D&format=%7B%7D&photoset_id=%7B%7D",
-            "method": "GET",
-            "body": {
-              "mode": "raw"
-            },
-            "description": "Get the number of views on a photoset for a given date."
-          },
-          "response": [
-            {
-              "status": "OK",
-              "code": 200,
-              "name": "Response_200",
-              "id": "e6d1931f-c980-4270-afd0-41e4f25795fd"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+          "name": "getRestMeth
