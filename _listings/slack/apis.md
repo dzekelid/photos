@@ -11,18 +11,20 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Photos
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/slack/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Slack Delete Photo
+- name: Slack
   x-api-slug: slack
-  description: Delete the user profile photo
+  description: one-way-to-interact-with-the-slack-platform-is-its-http-rpcbased-web-api-a-collection-of-methods-requiring-oauth-2-0based-user-bot-or-workspace-tokens-blessed-with-related-oauth-scopes-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//users.deletePhoto
-  tags: Messaging,Photos
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/slack/users-deletephoto-post-postman.md
@@ -46,6 +48,10 @@ apis:
 x-common:
 - type: x-website
   url: https://api.slack.com
+- type: x-api-gallery
+  url: http://site24x7.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://slack.stack.network
 - type: x-application-gallery
   url: https://slack.com/apps
 - type: x-blog

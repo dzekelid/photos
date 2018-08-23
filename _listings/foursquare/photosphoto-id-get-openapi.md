@@ -90,6 +90,65 @@ paths:
       tags:
       - Photos
       - Photo
+  /users/{USER_ID}/photos:
+    get:
+      summary: Get Users Photos
+      description: /users/{USER_ID}/mayorships
+      operationId: usersuser-idmayorships
+      x-api-path-slug: usersuser-idphotos-get
+      parameters:
+      - in: query
+        name: limit
+        description: Number of results to return, up to 500
+      - in: query
+        name: offset
+        description: Used to page through results
+      - in: query
+        name: USER_ID
+        description: Identity of the user to get details for
+      - in: path
+        name: USER_ID
+      - in: query
+        name: v
+        description: All requests now accept a v=YYYYMMDD param, which indicates that
+          the client is up to date as of the specified date
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Photos
+  /venues/{VENUE_ID}/photos:
+    get:
+      summary: Get Venues Photos
+      description: /venues/{VENUE_ID}/menu
+      operationId: venuesvenue-idmenu
+      x-api-path-slug: venuesvenue-idphotos-get
+      parameters:
+      - in: query
+        name: group
+        description: Pass checkin for photos added by friends on their recent checkins
+      - in: query
+        name: limit
+        description: Number of results to return, up to 500
+      - in: query
+        name: offset
+        description: Used to page through results
+      - in: query
+        name: v
+        description: All requests now accept a v=YYYYMMDD param, which indicates that
+          the client is up to date as of the specified date
+      - in: query
+        name: VENUE_ID
+        description: The venue you want photos for
+      - in: path
+        name: VENUE_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Venues
+      - Photos
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -7,334 +7,1311 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetu
 x-kinRank: "9"
 x-alexaRank: "917"
 tags: Photos
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Meetup Photos
+- name: Meetup
   x-api-slug: meetup
-  description: API method for accessing meetup photos
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////photos
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
-- name: Meetup Event Photo Delete
+- name: Meetup
   x-api-slug: meetup
-  description: Deletes a specified event photo
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////2/photo/:id
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
-- name: Meetup Event Photo Edit
+- name: Meetup
   x-api-slug: meetup
-  description: Edits a specified event photo
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////2/photo/:id
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
-- name: Meetup Photo Comment v2
+- name: Meetup
   x-api-slug: meetup
-  description: This method posts comments that appear below photos
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////2/photo_comment
-  tags: Events,Photos,Comments
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
-- name: Meetup Photo Albums
+- name: Meetup
   x-api-slug: meetup
-  description: This method returns photo albums associated with Meetup groups. To
-    create albums, see the corresponding write method.
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////2/photo_albums
-  tags: Events,Photos,Comments
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
-- name: Meetup Photos
+- name: Meetup
   x-api-slug: meetup
-  description: This method returns photos by member, group, album, event, photo ID,
-    or tagged member.
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////2/photos
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
-- name: Meetup Photo Album2
+- name: Meetup
   x-api-slug: meetup
-  description: This method creates photo albums within a Meetup group
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////2/photo_album
-  tags: Events,Photos,Albums
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
-- name: Meetup OpenVenues
+- name: Meetup
   x-api-slug: meetup
-  description: Searches for public venues within a given geo space. To search for
-    specific venues that your group has used, use the [Venues](/meetup_api/docs/2/venues)
-    method
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////2/open_venues
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
-- name: Meetup Event Photo Upload
+- name: Meetup
   x-api-slug: meetup
-  description: Uploads a photo for a given event
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////2/photo
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
-- name: Meetup WebSocket Photo Stream
+- name: Meetup
   x-api-slug: meetup
-  description: |-
-    For browsers that support it, [WebSockets](http://dev.w3.org/html5/websockets/) is a more
-    efficient alternative to the long-polling stream. This is a **push only** endpoint and will discard
-    any messages received from the client after the socket is open.
-
-    Because browser support for WebSockets is limited, we recommend that you consume this stream
-    through the [must.js](https://github.com/meetup/must.js#readme) client, which can fallback to long-polling.
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////2/photos
-  tags: Events,Photos,Albums
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
-- name: Meetup Group Venues
+- name: Meetup
   x-api-slug: meetup
-  description: Returns venues a group has previously hosted events at
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/venues
-  tags: Events,Photos,Veues
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
-- name: Meetup Venue Create
+- name: Meetup
   x-api-slug: meetup
-  description: Interface for creating new Meetup venues
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/venues
-  tags: Events,Photos,Veues
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
-- name: Meetup Event Hosts
+- name: Meetup
   x-api-slug: meetup
-  description: Returns the list of hosts for a given event
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/events/:event_id/hosts
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
-- name: Meetup Album Photos
+- name: Meetup
   x-api-slug: meetup
-  description: Lists photos for a given photo album
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/photo_albums/:album_id/photos
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
-- name: Meetup Album Photo Upload
+- name: Meetup
   x-api-slug: meetup
-  description: Support for uploading new Album photos
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/photo_albums/:album_id/photos
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
-- name: Meetup Event Photos
+- name: Meetup
   x-api-slug: meetup
-  description: Lists photos for a given event
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/events/:event_id/photos
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-get-openapi.md
-- name: Meetup Event Photo
+- name: Meetup
   x-api-slug: meetup
-  description: Gets information about a specific photo
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/events/:event_id/photos/:photo_id
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-get-openapi.md
-- name: Meetup Event Photo Edit
+- name: Meetup
   x-api-slug: meetup
-  description: Edits photo details
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/events/:event_id/photos/:photo_id
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-patch-openapi.md
-- name: Meetup Event Photo Delete
+- name: Meetup
   x-api-slug: meetup
-  description: Deletes a specified event photo
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/events/:event_id/photos/:photo_id
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-patch-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-delete-openapi.md
-- name: Meetup Event Photo Upload
+- name: Meetup
   x-api-slug: meetup
-  description: Support for uploading new Event photos
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/events/:event_id/photos
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-post-openapi.md
-- name: Meetup Album Photos
+- name: Meetup
   x-api-slug: meetup
-  description: Lists of all photos uploaded for the group
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/photos
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephotos-get-openapi.md
-- name: Meetup Group Topics Add
+- name: Meetup
   x-api-slug: meetup
-  description: Associates topics with a given Meetup group. Limited to organizers
-    of the group. OAuth authenticated requests require an additional [group_edit](/meetup_api/auth/#oauth2-scopes)
-    permission.
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/topics
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephotos-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-post-openapi.md
-- name: Meetup Group Topics Remove
+- name: Meetup
   x-api-slug: meetup
-  description: Disassociates topics with a given Meetup group. Limited to organizers
-    of the group. OAuth authenticated requests require an additional [group_edit](/meetup_api/auth/#oauth2-scopes)
-    permission.
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/topics
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-delete-openapi.md
-- name: Meetup Member Photo Delete
+- name: Meetup
   x-api-slug: meetup
-  description: Deletes a member photo by id
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////members/:member_id/photos/:photo_id
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/membersmember-idphotosphoto-id-delete-openapi.md
-- name: Meetup Member Photo Upload
+- name: Meetup
   x-api-slug: meetup
-  description: Support for uploading new Member photos
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////members/:member_id/photos
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/membersmember-idphotosphoto-id-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/membersmember-idphotos-post-openapi.md
-- name: Meetup Photo Album
+- name: Meetup
   x-api-slug: meetup
-  description: Gets information about a specific photo album
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/photo_albums/:album_id
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/membersmember-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/membersmember-idphotos-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-id-get-openapi.md
-- name: Meetup Photo Album List
+- name: Meetup
   x-api-slug: meetup
-  description: Gets a list a group photo albums in ascending order based on the time
-    they were created
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/photo_albums
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/membersmember-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/membersmember-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-id-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albums-get-openapi.md
-- name: Meetup Photo Comment
+- name: Meetup
   x-api-slug: meetup
-  description: Creates a new photo comment
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/events/:event_id/photos/:photo_id/comments
-  tags: Events,Photos,Comments
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/membersmember-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/membersmember-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albums-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-idcomments-post-openapi.md
-- name: Meetup Photo Comment Delete
+- name: Meetup
   x-api-slug: meetup
-  description: Deletes photo comments
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/events/:event_id/photos/:photo_id/comments/:comment_id
-  tags: Events,Photos,Comments
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/membersmember-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/membersmember-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-idcomments-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-idcommentscomment-id-delete-openapi.md
-- name: Meetup Photo Comments
+- name: Meetup
   x-api-slug: meetup
-  description: Lists photo comments associated with a photo
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/events/:event_id/photos/:photo_id/comments
-  tags: Events,Photos,Comments
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/membersmember-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/membersmember-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-idcomments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-idcommentscomment-id-delete-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-idcomments-get-openapi.md
-- name: Meetup Similar groups
+- name: Meetup
   x-api-slug: meetup
-  description: Renders a list of similar groups
+  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/similar_groups
-  tags: Events,Photos
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photoid-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-comment-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-album-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2open-venues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photo-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/2photos-ws-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamevenues-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idhosts-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-patch-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephotos-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnametopics-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/membersmember-idphotosphoto-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/membersmember-idphotos-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albumsalbum-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamephoto-albums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-idcomments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-idcommentscomment-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnameeventsevent-idphotosphoto-idcomments-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/urlnamesimilar-groups-get-openapi.md
 - name: Meetup
@@ -348,7 +1325,198 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup Cities (stream)
+  x-api-slug: meetup-cities-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup Comments (stream)
+  x-api-slug: meetup-comments-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup Comments v2 (stream)
+  x-api-slug: meetup-comments-v2-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup Concierge (stream)
+  x-api-slug: meetup-concierge-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup Events (stream)
+  x-api-slug: meetup-events-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup Find Events (stream)
+  x-api-slug: meetup-find-events-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup Find Groups (stream)
+  x-api-slug: meetup-find-groups-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup Find locations (stream)
+  x-api-slug: meetup-find-locations-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup Find Topics (stream)
+  x-api-slug: meetup-find-topics-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup Find Upcoming Events (stream)
+  x-api-slug: meetup-find-upcoming-events-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup Find Venues (stream)
+  x-api-slug: meetup-find-venues-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup Members (stream)
+  x-api-slug: meetup-members-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup OpenEvents (stream)
+  x-api-slug: meetup-openevents-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup OpenVenues (stream)
+  x-api-slug: meetup-openvenues-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup Photos (stream)
+  x-api-slug: meetup-photos-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup RSVPs v2 (stream)
+  x-api-slug: meetup-rsvps-v2-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
+- name: Meetup Venues (stream)
+  x-api-slug: meetup-venues-stream
+  description: Find Meetups so you can do more of what matters to you. Or create your
+    own group and meet people near you who share your interests.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https:///
+  tags: Photos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/meetup/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://medium.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://meetup.stack.network
 - type: x-base
   url: http://api.meetup.com
 - type: x-crunchbase
