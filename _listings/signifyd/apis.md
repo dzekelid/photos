@@ -7,24 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1941-signi
 x-kinRank: "8"
 x-alexaRank: "85706"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/signifyd/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Shutterfly
-  x-api-slug: shutterfly
-  description: Shutterfly is an online photo printing service. Using the Shutterfly
-    API, developers can create new and innovative applications using the Shutterfly
-    service. The API can upload and organize images, authenticate Shutterfly users
-    and even place orders.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1941-signifyd.jpg
-  humanURL: https://www.signifyd.com/
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/signifyd/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://api.signifyd.com/

@@ -6,21 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1177-totem
 x-kinRank: "7"
 x-alexaRank: "9273121"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/totems/apis.md
 specificationVersion: "0.14"
-apis:
-- name: TOTEMS
-  x-api-slug: totems
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1177-totems.jpg
-  humanURL: http://teleportd.com/
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/totems/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://teleportd.com/

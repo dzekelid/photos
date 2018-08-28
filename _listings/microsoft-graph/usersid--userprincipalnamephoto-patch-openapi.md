@@ -119,6 +119,24 @@ paths:
           description: OK
       tags:
       - Photo
+    patch:
+      summary: Update Photo
+      description: Update photo Update the properties of photo object.
+      operationId: UpdatePhoto
+      x-api-path-slug: groupsidphoto-patch
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Photo
   /drive/root/createdByUser/photo:
     delete:
       summary: Delete Photo
@@ -146,6 +164,21 @@ paths:
       description: Get photo Retrieve the properties and relationships of photo object.
       operationId: GetPhoto
       x-api-path-slug: driverootcreatedbyuserphoto-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Photo
+    patch:
+      summary: Update Photo
+      description: Update photo Update the properties of photo object.
+      operationId: UpdatePhoto
+      x-api-path-slug: driverootcreatedbyuserphoto-patch
       parameters:
       - in: header
         name: Authorization

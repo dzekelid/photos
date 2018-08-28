@@ -7,25 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/297-a-view
 x-kinRank: "7"
 x-alexaRank: "38314"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/a-view-from-my-seat/apis.md
 specificationVersion: "0.14"
-apis:
-- name: A View From My Seat
-  x-api-slug: a-view-from-my-seat
-  description: A View from my Seat provides a suite of services connecting fans to
-    their favorite teams, primarily by providing photos from fans and showing them
-    in seating charts on the team????s website. The A View from my Seat API provides
-    a RESTful interface for developers to enhance their sites and applications with
-    fan photos.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/297-a-view-from-my-seat.jpg
-  humanURL: http://aviewfrommyseat.com/
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/a-view-from-my-seat/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://aviewfrommyseat.com/

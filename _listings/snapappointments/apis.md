@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1159-snapa
 x-kinRank: "7"
 x-alexaRank: "393143"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/snapappointments/apis.md
 specificationVersion: "0.14"
-apis:
-- name: SnapAppointments
-  x-api-slug: snapappointments
-  description: Online appointment scheduling, appointment reminders, client database,
-    and more for businesses and organizations of all sizes.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1159-snapappointments.jpg
-  humanURL: http://www.snapappointments.com/en/api-documentation
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/snapappointments/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.snapappointments.com/en/api-documentation

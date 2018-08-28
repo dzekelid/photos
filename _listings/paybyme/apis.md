@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1353-payby
 x-kinRank: "7"
 x-alexaRank: "609384"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/paybyme/apis.md
 specificationVersion: "0.14"
-apis:
-- name: PaybyMe
-  x-api-slug: paybyme
-  description: Payment Services in METNA (Turkey, Middle East, North Affrica) and
-    CIS (Commonwealth of Independent States) regions.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1353-paybyme.jpg
-  humanURL: http://www.payby.me
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/paybyme/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.payby.me

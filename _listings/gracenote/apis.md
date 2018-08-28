@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1537-grace
 x-kinRank: "8"
 x-alexaRank: "178175"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/gracenote/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Gracenote
-  x-api-slug: gracenote
-  description: Gracenote is the leader in entertainment metadata, helping people connect
-    to the music, TV shows, movies and sports they love across the worlds most popular
-    entertainment platforms and devices, from Apple to Amazon to Comcast and Ford.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1537-gracenote.jpg
-  humanURL: https://gracenote.com
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/gracenote/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://*.web.cddbp.net/webapi/

@@ -6,23 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/606-imgur.
 x-kinRank: "7"
 x-alexaRank: "50"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/imgur/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Imgur API
-  x-api-slug: imgur-api
-  description: Imgurs API exposes much of the Imgur infrastructure via a standardized
-    programmatic interface. Using Imgurs API, you can upload images and completely
-    manage your Imgur account, using your programming language of choice.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/606-imgur.jpg
-  humanURL: http://imgur.com/
-  baseURL: http://api.imgur.com//3/
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/imgur/openapi.md
+apis: []
 x-common:
 - type: x-application-gallery
   url: http://imgur.com/apps

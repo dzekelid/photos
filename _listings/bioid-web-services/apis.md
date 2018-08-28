@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1311-bioid
 x-kinRank: "8"
 x-alexaRank: "1177710"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/bioid-web-services/apis.md
 specificationVersion: "0.14"
-apis:
-- name: BioID Web Services
-  x-api-slug: bioid-web-services
-  description: BioID offers unique anonymous multimodal biometric authentication services
-    for face recognition and voice recognition with strong privacy protection. Find
-    relevant background information on periocular eye recognition and anti-spoofing
-    liveness detectio...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1311-bioid-web-services.jpg
-  humanURL: http://www.bioid.com/products/bws/apis.html
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/bioid-web-services/openapi.md
+apis: []
 x-common:
 - type: x-blog-rss
   url: http://www.bioid.com/rss-feed.html

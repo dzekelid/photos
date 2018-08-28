@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1112-picit
 x-kinRank: "7"
 x-alexaRank: "2683680"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/picitup/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Picitup
-  x-api-slug: picitup
-  description: Picitup is a leading developer and provider of image recognition services,
-    and the first company to deliver a Software-as-a-Service (SaaS) color search.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1112-picitup.jpg
-  humanURL: http://www2.picitup.com/picliq
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/picitup/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www2.picitup.com/picliq

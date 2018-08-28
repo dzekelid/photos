@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9135-local
 x-kinRank: "8"
 x-alexaRank: "92382"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/localytics/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Localytics API
-  x-api-slug: localytics-api
-  description: With our platform you get smarter analytics insights and mobile app
-    marketing experiences that better engage your users. Check out a full list of
-    features!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9135-localytics.jpg
-  humanURL: http://www.localytics.com/
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/localytics/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://www.localytics.com/blog/

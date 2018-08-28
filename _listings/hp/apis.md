@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/212-hp.jpg
 x-kinRank: "7"
 x-alexaRank: "371"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/hp/apis.md
 specificationVersion: "0.14"
-apis:
-- name: HP
-  x-api-slug: hp
-  description: Learn about HP laptops, pc desktops, printers, accessories and more
-    at the Official HP Website
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/212-hp.jpg
-  humanURL: http://map.hpl.hp.com
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/hp/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://h30507.www3.hp.com/

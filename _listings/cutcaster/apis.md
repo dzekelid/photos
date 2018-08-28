@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/748-cutcas
 x-kinRank: "9"
 x-alexaRank: "1137461"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/cutcaster/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Cutcaster
-  x-api-slug: cutcaster
-  description: Cutcaster sells pictures and clipart for use on websites, design projects,
-    powerpoint presentations, blogs or anytime you need a unique image to tell your
-    story.    Search our picture library via our lightning quick search engine, download
-    comps, buy s...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/748-cutcaster.jpg
-  humanURL: http://cutcaster.com
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/cutcaster/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.cutcaster.com

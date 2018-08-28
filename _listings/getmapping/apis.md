@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/411-getmap
 x-kinRank: "7"
 x-alexaRank: "691226"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/getmapping/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Getmapping
-  x-api-slug: getmapping
-  description: Getmapping is a leading provider of aerial photography, LiDAR and mobile
-    mapping surveys across Europe and Africa.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/411-getmapping.jpg
-  humanURL: http://www2.getmapping.com/Default.aspx
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/getmapping/openapi.md
+apis: []
 x-common:
 - type: x-blog-rss
   url: http://www2.getmapping.com/RSS

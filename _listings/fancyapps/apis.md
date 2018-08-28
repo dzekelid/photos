@@ -6,21 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1649-fancy
 x-kinRank: "7"
 x-alexaRank: "137942"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/fancyapps/apis.md
 specificationVersion: "0.14"
-apis:
-- name: fancyapps
-  x-api-slug: fancyapps
-  description: Need help with fancybox?
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1649-fancyapps.jpg
-  humanURL: http://fancyapps.com/fancybox/
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/fancyapps/openapi.md
+apis: []
 x-common:
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/fancybox

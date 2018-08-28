@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/983-zenfol
 x-kinRank: "7"
 x-alexaRank: "14543"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/zenfolio/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Zenfolio
-  x-api-slug: zenfolio
-  description: Zenfolio provides photographers with all the tools needed for a successful
-    photography website - with more features and a better price than any other service.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/983-zenfolio.jpg
-  humanURL: http://www.zenfolio.com
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/zenfolio/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.zenfolio.com

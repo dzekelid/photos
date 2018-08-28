@@ -146,6 +146,70 @@ paths:
       tags:
       - Art
       - Photo
+  /api/v1/event/{eventId}/photo:
+    post:
+      summary: Post Event Eventid Photo
+      description: Post event eventid photo.
+      operationId: postApiV1EventEventPhoto
+      x-api-path-slug: apiv1eventeventidphoto-post
+      parameters:
+      - in: header
+        name: Authorization
+      - in: query
+        name: file
+      responses:
+        200:
+          description: OK
+      tags:
+      - Event
+      - Eventid
+      - Photo
+  /api/v1/event/{eventId}/photo/{photoId}:
+    delete:
+      summary: Delete Event Eventid Photo Photoid
+      description: Delete event eventid photo photoid.
+      operationId: deleteApiV1EventEventPhotoPhoto
+      x-api-path-slug: apiv1eventeventidphotophotoid-delete
+      parameters:
+      - in: header
+        name: Authorization
+      - in: path
+        name: eventId
+      - in: path
+        name: photoId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Event
+      - Eventid
+      - Photo
+      - Photoid
+  /api/v1/request/{requestId}/art/{artistId}/presskit/{photoId}:
+    get:
+      summary: Get Request Requestid Art Artistid Presskit Photoid
+      description: Get request requestid art artistid presskit photoid.
+      operationId: getApiV1RequestRequestArtArtistPresskitPhoto
+      x-api-path-slug: apiv1requestrequestidartartistidpresskitphotoid-get
+      parameters:
+      - in: path
+        name: artistId
+      - in: header
+        name: Authorization
+      - in: path
+        name: photoId
+      - in: path
+        name: requestId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Request
+      - Requestid
+      - Art
+      - Artistid
+      - Presskit
+      - Photoid
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

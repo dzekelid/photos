@@ -40,6 +40,42 @@ paths:
           description: OK
       tags:
       - Photo
+    get:
+      summary: Get Photo
+      description: Get photo Retrieve the properties and relationships of photo object.
+      operationId: GetPhoto
+      x-api-path-slug: usersid--userprincipalnamephoto-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Photo
+    patch:
+      summary: Update Photo
+      description: Update photo Update the properties of photo object.
+      operationId: UpdatePhoto
+      x-api-path-slug: usersid--userprincipalnamephoto-patch
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id | userPrincipalName
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Photo
   /groups/{id}/photo:
     delete:
       summary: Delete Photo
@@ -59,6 +95,94 @@ paths:
         description: If this request header is included and the eTag (or cTag) provided
           does not match the current tag on the item, a 412 Precondition Failed response
           is returned and the item will not be deleted
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Photo
+    get:
+      summary: Get Photo
+      description: Get photo Retrieve the properties and relationships of photo object.
+      operationId: GetPhoto
+      x-api-path-slug: groupsidphoto-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Photo
+    patch:
+      summary: Update Photo
+      description: Update photo Update the properties of photo object.
+      operationId: UpdatePhoto
+      x-api-path-slug: groupsidphoto-patch
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Photo
+  /drive/root/createdByUser/photo:
+    delete:
+      summary: Delete Photo
+      description: Delete photo Delete a photo.
+      operationId: DeletePhoto
+      x-api-path-slug: driverootcreatedbyuserphoto-delete
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: header
+        name: if-match
+        description: If this request header is included and the eTag (or cTag) provided
+          does not match the current tag on the item, a 412 Precondition Failed response
+          is returned and the item will not be deleted
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Photo
+    get:
+      summary: Get Photo
+      description: Get photo Retrieve the properties and relationships of photo object.
+      operationId: GetPhoto
+      x-api-path-slug: driverootcreatedbyuserphoto-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Photo
+    patch:
+      summary: Update Photo
+      description: Update photo Update the properties of photo object.
+      operationId: UpdatePhoto
+      x-api-path-slug: driverootcreatedbyuserphoto-patch
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
         type: string
       responses:
         200:

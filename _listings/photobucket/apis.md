@@ -9,23 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/455-photob
 x-kinRank: "7"
 x-alexaRank: "2967"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/photobucket/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Photobucket
-  x-api-slug: photobucket
-  description: Photobucket is the most popular site on the internet for uploading,
-    sharing, linking and finding photos, videos and graphics. Now you can add Photobucket
-    features to your application by using our Web Service API.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/455-photobucket.jpg
-  humanURL: http://photobucket.com
-  baseURL: http://api.photobucket.com//
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/photobucket/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api123.photobucket.com/

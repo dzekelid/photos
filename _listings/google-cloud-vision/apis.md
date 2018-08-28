@@ -13,28 +13,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/google-cloud-vision/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Google Cloud Vision API
-  x-api-slug: google-cloud-vision-api
-  description: Google Cloud Vision API enables developers to understand the content
-    of an image by encapsulating powerful machine learning models in an easy to use
-    REST API. It quickly classifies images into thousands of categories (e.g., sailboat,
-    lion, Eiffel Tower), detects individual objects and faces within images, and finds
-    and reads printed words contained within images. You can build metadata on your
-    image catalog, moderate offensive content, or enable new marketing scenarios through
-    image sentiment analysis. Analyze images uploaded in the request or integrate
-    with your image storage on Google Cloud Storage.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-vision-what-is-it.png
-  humanURL: https://cloud.google.com/vision/
-  baseURL: ://vision.googleapis.com//
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/google-cloud-vision/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://google.cloud.user.accounts.api.gallery.streamdata.io

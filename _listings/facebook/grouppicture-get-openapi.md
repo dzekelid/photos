@@ -383,6 +383,64 @@ paths:
       tags:
       - Group
       - Picture
+  /{page}/picture:
+    get:
+      summary: Get Page Picture
+      description: The page's profile picture
+      operationId: getPagePicture
+      x-api-path-slug: pagepicture-get
+      parameters:
+      - in: path
+        name: page
+        description: Represents the ID of the page object
+      - in: query
+        name: type
+        description: One of square (50x50), small (50 pixels wide, variable height),
+          and large (about 200 pixels wide,                                                        variable
+          height)
+      responses:
+        200:
+          description: OK
+      tags:
+      - Page
+      - Picture
+  /{user}/picture:
+    get:
+      summary: Get User Picture
+      description: The user's profile picture
+      operationId: getUserPicture
+      x-api-path-slug: userpicture-get
+      parameters:
+      - in: query
+        name: type
+        description: One of square (50x50), small (50 pixels wide, variable height),
+          and large (about 200 pixels wide,                                                        variable
+          height)
+      - in: path
+        name: user
+        description: Represents the ID of the user object
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - Picture
+  /{video}/picture:
+    get:
+      summary: Get Veo Picture
+      description: The image which represents the content of the video
+      operationId: getVeoPicture
+      x-api-path-slug: videopicture-get
+      parameters:
+      - in: path
+        name: video
+        description: Represents the ID of the video object
+      responses:
+        200:
+          description: OK
+      tags:
+      - Video
+      - Picture
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

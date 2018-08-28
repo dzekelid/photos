@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/804-gravat
 x-kinRank: "7"
 x-alexaRank: "6850"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/gravatar-com/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Gravatar.com
-  x-api-slug: gravatar-com
-  description: A globally recognized avatar and profile that represents you online
-    across millions of sites. Part of the @Automattic family.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/804-gravatar-com.jpg
-  humanURL: http://en.gravatar.com
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/gravatar-com/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://www.gravatar.com/avatar/

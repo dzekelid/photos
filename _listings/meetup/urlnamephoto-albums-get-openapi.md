@@ -774,6 +774,172 @@ paths:
       tags:
       - Events
       - Photos
+  /:urlname/events/:event_id/photos/:photo_id/comments:
+    post:
+      summary: Photo Comment
+      description: Creates a new photo comment
+      operationId: photos
+      x-api-path-slug: urlnameeventsevent-idphotosphoto-idcomments-post
+      parameters:
+      - in: query
+        name: comment
+        description: The text of the comment
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Photos
+      - Comments
+    get:
+      summary: Photo Comments
+      description: Lists photo comments associated with a photo
+      operationId: photos
+      x-api-path-slug: urlnameeventsevent-idphotosphoto-idcomments-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Photos
+      - Comments
+  /:urlname/events/:event_id/photos/:photo_id/comments/:comment_id:
+    delete:
+      summary: Photo Comment Delete
+      description: Deletes photo comments
+      operationId: photos
+      x-api-path-slug: urlnameeventsevent-idphotosphoto-idcommentscomment-id-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Photos
+      - Comments
+  /:urlname/similar_groups:
+    get:
+      summary: Similar groups
+      description: Renders a list of similar groups
+      operationId: groups
+      x-api-path-slug: urlnamesimilar-groups-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Photos
+  /2/group_photo:
+    post:
+      summary: Group Photo Upload
+      description: Uploads a new Meetup Group photo. To change other Group settings
+        use the [Group Edit](/meetup_api/docs/:urlname/#edit) endpoint
+      operationId: groups
+      x-api-path-slug: 2group-photo-post
+      parameters:
+      - in: query
+        name: await
+        description: If true, this ensures a response will not be returned until the
+          upload is accessible
+        type: string
+      - in: query
+        name: group_id
+        description: Group ID for the target group
+        type: string
+      - in: query
+        name: group_urlname
+        description: Group urlname
+        type: string
+      - in: query
+        name: main
+        description: Set to true to have this photo become the groups main photo
+        type: string
+      - in: query
+        name: photo
+        description: The photo, encoded as multipart/form-data
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Groups
+  /2/member_photo:
+    post:
+      summary: Member Photo Upload
+      description: Uploads a photo to be associated with a Member
+      operationId: members
+      x-api-path-slug: 2member-photo-post
+      parameters:
+      - in: query
+        name: await
+        description: If true, this ensures a response will not be returned until the
+          upload is accessible
+        type: string
+      - in: query
+        name: main
+        description: Set to true to have this photo become the members main profile
+          photo
+        type: string
+      - in: query
+        name: photo
+        description: The photo, encoded as multipart/form-data
+        type: string
+      - in: query
+        name: sync_matching_photo
+        description: When set to true and main is set to true, this will replace all
+          group profile photos matching the current photo with the provided replacement
+        type: string
+      - in: query
+        name: sync_photo
+        description: When set to true, this parameter will sync all of the group profile
+          photos for the member with the provided photo_id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Groups
+      - Member
+  /2/member_photo/:id:
+    delete:
+      summary: Member Photo Delete
+      description: Delete the specified member photo
+      operationId: members
+      x-api-path-slug: 2member-photoid-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+  /2/photo_comments:
+    get:
+      summary: Photo Comments v2
+      description: This method returns comments on meetup photos. To post messages,
+        see the corresponding write method
+      operationId: photos
+      x-api-path-slug: 2photo-comments-get
+      parameters:
+      - in: query
+        name: fields
+        description: Request that additional fields (separated by commas) be included
+          in the output
+        type: string
+      - in: query
+        name: member_id
+        description: Return comments for the given member_ids, separated by commas
+        type: string
+      - in: query
+        name: photo_id
+        description: Return comments on these photos, separated by commas
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Profile
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

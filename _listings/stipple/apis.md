@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1480-stipp
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/stipple/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Stipple
-  x-api-slug: stipple
-  description: Turn your Images into an experience including in-image native advertising  @StippleSupport
-    for all support help.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1480-stipple.jpg
-  humanURL: https://stipple.com/api_docs
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/stipple/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: https://stipple.com/api_docs

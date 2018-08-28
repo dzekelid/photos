@@ -7,28 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/146-world-
 x-kinRank: "10"
 x-alexaRank: "2637"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/world-bank-data/apis.md
 specificationVersion: "0.14"
-apis:
-- name: World Bank
-  x-api-slug: world-bank
-  description: 'The World Bank currently has three different APIs to provide access
-    to different datasets: one for Indicators (or time series data), one for Projects
-    (or data on the World Bank&rsquo;s operations), and one for the World Bank financial
-    data (World Bank Finances API). All three APIs implementRESTfulinterfaces to allow
-    users to perform queries of available data using selection parameters. For the
-    Indicators API, XML and JSON representations are available; for the Projects API,
-    Atom representation is also available; for the World Bank Finances API, XML, JSON
-    and RDF representations are available.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/146-world-bank-data.jpg
-  humanURL: http://data.worldbank.org/
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/world-bank-data/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.worldbank.org

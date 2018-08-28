@@ -185,6 +185,31 @@ paths:
       - Eventid
       - Photo
       - Photoid
+  /api/v1/request/{requestId}/art/{artistId}/presskit/{photoId}:
+    get:
+      summary: Get Request Requestid Art Artistid Presskit Photoid
+      description: Get request requestid art artistid presskit photoid.
+      operationId: getApiV1RequestRequestArtArtistPresskitPhoto
+      x-api-path-slug: apiv1requestrequestidartartistidpresskitphotoid-get
+      parameters:
+      - in: path
+        name: artistId
+      - in: header
+        name: Authorization
+      - in: path
+        name: photoId
+      - in: path
+        name: requestId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Request
+      - Requestid
+      - Art
+      - Artistid
+      - Presskit
+      - Photoid
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

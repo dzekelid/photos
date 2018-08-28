@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/930-shutte
 x-kinRank: "7"
 x-alexaRank: "2478"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/shutterfly/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Shutterfly
-  x-api-slug: shutterfly
-  description: Create photo books, personalize photo cards & stationery, and share
-    photos with family and friends at Shutterfly.com.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/930-shutterfly.jpg
-  humanURL: http://www.shutterfly.com/documentation/start.sfly
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/shutterfly/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.shutterfly.com/documentation/start.sfly

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1418-galle
 x-kinRank: "7"
 x-alexaRank: "366315"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/galleria-io/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Galleria.io
-  x-api-slug: galleria-io
-  description: A free JavaScript image gallery framework that simplifies the process
-    of creating beautiful image galleries for the web and mobile devices.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1418-galleria-io.jpg
-  humanURL: https://galleria.io/
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/galleria-io/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: https://galleria.io/

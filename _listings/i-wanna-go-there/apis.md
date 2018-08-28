@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/824-i-wann
 x-kinRank: "7"
 x-alexaRank: "1652917"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/i-wanna-go-there/apis.md
 specificationVersion: "0.14"
-apis:
-- name: I Wanna Go There
-  x-api-slug: i-wanna-go-there
-  description: Iwannagothere.com is a travel guide for Coolpackers. Coolpackers are
-    travelers that love design, architecture, vintage shops, music and trendy places.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/824-i-wanna-go-there.jpg
-  humanURL: http://iwannagothere.com/api/index.html
-  baseURL: https:///
-  tags: Photos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/i-wanna-go-there/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.iwannagothere.com

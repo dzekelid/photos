@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursq
 x-kinRank: "9"
 x-alexaRank: "2544"
 tags: Photos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Foursquare
-  x-api-slug: foursquare
-  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
+- name: Foursquare - Post Photos Add
+  x-api-slug: photosadd-post
+  description: /photos/{PHOTO_ID}
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
   baseURL: https://api.foursquare.com//v2/
@@ -27,9 +27,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosadd-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosadd-post-openapi.md
-- name: Foursquare
-  x-api-slug: foursquare
-  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
+- name: Foursquare - Get Photos Photo
+  x-api-slug: photosphoto-id-get
+  description: /updates/marknotificationsread
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
   baseURL: https://api.foursquare.com//v2/
@@ -38,17 +38,13 @@ apis:
     Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
     Data API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosadd-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosadd-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosphoto-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosphoto-id-get-openapi.md
-- name: Foursquare
-  x-api-slug: foursquare
-  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
+- name: Foursquare - Get Users Photos
+  x-api-slug: usersuser-idphotos-get
+  description: /users/{USER_ID}/mayorships
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
   baseURL: https://api.foursquare.com//v2/
@@ -57,21 +53,13 @@ apis:
     Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
     Data API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosadd-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosadd-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosphoto-id-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosphoto-id-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/usersuser-idphotos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/usersuser-idphotos-get-openapi.md
-- name: Foursquare
-  x-api-slug: foursquare
-  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
+- name: Foursquare - Get Venues Photos
+  x-api-slug: venuesvenue-idphotos-get
+  description: /venues/{VENUE_ID}/menu
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
   baseURL: https://api.foursquare.com//v2/
@@ -80,25 +68,13 @@ apis:
     Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
     Data API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosadd-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosadd-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosphoto-id-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosphoto-id-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/usersuser-idphotos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/usersuser-idphotos-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/venuesvenue-idphotos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/venuesvenue-idphotos-get-openapi.md
-- name: Foursquare
-  x-api-slug: foursquare
-  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
+- name: Foursquare - Get Photos Photo
+  x-api-slug: photosphoto-id-get
+  description: /updates/marknotificationsread
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
   baseURL: https://api.foursquare.com//v2/
@@ -108,53 +84,39 @@ apis:
     Data API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosadd-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosadd-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosphoto-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosphoto-id-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/usersuser-idphotos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/usersuser-idphotos-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/venuesvenue-idphotos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/venuesvenue-idphotos-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosphoto-id-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosphoto-id-get-openapi.md
-- name: Foursquare
-  x-api-slug: foursquare
-  description: foursquare makes the real world easier to use. We build tools that
-    help you keep up with friends, discover what???s nearby, save money and unlock
-    deals. Whether you???re setting off on a trip around the world, coordinating a
-    night out with friends, or trying to pick out the best dish at your local restaurant,
-    foursquare is the perfect companion. The foursquare API gives you access to all
-    of the data used by the foursquare mobile applications, and, in some cases, even
-    more.
+- name: Foursquare - Get Photos Photo
+  x-api-slug: photosphoto-id-get
+  description: /updates/marknotificationsread
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
   baseURL: https://api.foursquare.com//v2/
-  tags: Photos
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosphoto-id-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/openapi.md
-- name: Foursquare Merchant
-  x-api-slug: foursquare-merchant
-  description: The foursquare Merchant Platform helps developers work with venue managers
-    to manage specials and venue information and build experiences for customers that
-    respond to check-ins.
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosphoto-id-get-openapi.md
+- name: Foursquare - Get Photos Photo
+  x-api-slug: photosphoto-id-get
+  description: /updates/marknotificationsread
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https:///
-  tags: Photos
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosphoto-id-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/photos/master/_listings/foursquare/photosphoto-id-get-openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/foursquare.json

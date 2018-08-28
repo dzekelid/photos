@@ -174,6 +174,21 @@ paths:
           description: OK
       tags:
       - Photo
+    patch:
+      summary: Update Photo
+      description: Update photo Update the properties of photo object.
+      operationId: UpdatePhoto
+      x-api-path-slug: driverootcreatedbyuserphoto-patch
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Photo
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
